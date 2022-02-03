@@ -2,7 +2,7 @@
 #include <string>
 
 int main(){
-	std::out<<"Goodbye World";
+	std::out<<"Hello World";
 
 	return 0;
 }
