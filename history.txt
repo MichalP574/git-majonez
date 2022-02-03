@@ -1,0 +1,29 @@
+ 1120  cd ..
+ 1121  cd cpp_course
+ 1122  cd coders_school/
+ 1123  mkdir git-majonez
+ 1124  cd git-majonez
+ 1125  touch main.cpp
+ 1126  vim main.cpp 
+ 1127  git add main.cpp 
+ 1128  git init 
+ 1129  git add main.cpp 
+ 1130  git commit -m"Initial commit"
+ 1131  vim main.cpp 
+ 1132  git add main.cpp 
+ 1133  git commit -m"Farewell changed"
+ 1134  git remote add origin git@github.com:MichalP574/git-majonez.git
+ 1135  git push -u origin master
+ 1136  git checkout -b cs
+ 1137  git reset HEAD^
+ 1138  git reset --hard 
+ 1139  git log
+ 1140  vim main.cpp 
+ 1141  git commit -am"Greetings"
+ 1142  git push origin cs
+ 1143  git checkout master 
+ 1144  git merge --no-ff cs 
+ 1145  vim main.cpp 
+ 1146  git add main.cpp 
+ 1147  git commit 
+ 1148  history | tail -n 30 >> history.txt
